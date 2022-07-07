@@ -5,8 +5,8 @@ function CounterButton(props) {
   const [clickAmount, setClickAmount] = useState();
   
   return (
-    <button className="CounterButton">You clicked me X amount of times</button>
+    <button className="CounterButton">You clicked me {clickAmount} amount of times</button>
   );
-}
+};
 
 export default CounterButton;
