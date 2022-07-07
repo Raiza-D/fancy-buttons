@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 function AngryButton(props) {
-  const [anger, setAnger] = useState();
+  const [anger, setAnger] = useState(0);
 
   return (
     <button
