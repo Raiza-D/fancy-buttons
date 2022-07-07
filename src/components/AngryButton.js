@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-function AngryButton() {
+
+function AngryButton(props) {
+  const [anger, setAnger] = useState();
 
   return (
     <button className="AngryButton">
