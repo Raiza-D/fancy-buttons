@@ -12,3 +12,5 @@ function AngryButton() {
   );
 };
 
+export default AngryButton;
+
