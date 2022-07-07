@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState } from "react";
 
 function LightSwitchButton() {
-
   return (
     <button className="LightSwitchButton">
       {/* When the state is on */}
@@ -14,6 +13,6 @@ function LightSwitchButton() {
       </span>
     </button>
   );
-};
+}
 
 export default LightSwitchButton;
