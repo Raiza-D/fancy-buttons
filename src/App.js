@@ -9,6 +9,12 @@ import { useState } from 'react';
 function App() {
   const [light, setLight] = useState("off");
 
+  if (light === "on") {
+    <div className={`App dark`}></div>
+  } else {
+    <div className={`App`}></div>
+  }
+
   return (
     <div className={`App dark`}>
       <h1>Fancy Buttons!</h1>
